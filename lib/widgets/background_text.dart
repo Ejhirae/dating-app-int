@@ -1,8 +1,8 @@
 import 'package:dating_app_stroll/resources/constants.dart';
 import 'package:flutter/material.dart';
 
-class backgroundTextWidget extends StatelessWidget {
-  const backgroundTextWidget({
+class BackgroundTextWidget extends StatelessWidget {
+  const BackgroundTextWidget({
     super.key,
   });
 

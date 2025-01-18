@@ -40,8 +40,8 @@ class ProfileDetailsWidget extends StatelessWidget {
         alignment: AlignmentDirectional.bottomCenter,
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(15.0),
+            const Padding(
+              padding: EdgeInsets.all(15.0),
               child: ProfileInformationWidget(),
             ),
             SizedBox(

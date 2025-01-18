@@ -1,7 +1,7 @@
 import 'package:dating_app_stroll/resources/constants.dart';
 import 'package:flutter/material.dart';
 
-BottomNavigationBar BottomNavBar() {
+BottomNavigationBar bottomNavBar() {
     return BottomNavigationBar(
       enableFeedback: false,
       backgroundColor: kSecondaryBackgroundColor,

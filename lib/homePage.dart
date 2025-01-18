@@ -13,13 +13,13 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavBar(),
+      bottomNavigationBar: bottomNavBar(),
       backgroundColor: kSecondaryBackgroundColor,
       body: const Column(
         children: [
           Stack(children: [
-            backGroundImage(),
-            backgroundTextWidget(),
+            BackGroundImage(),
+            BackgroundTextWidget(),
             ProfileDetailsWidget()
           ]),
         ],

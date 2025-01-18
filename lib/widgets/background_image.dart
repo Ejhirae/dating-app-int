@@ -1,8 +1,8 @@
 import 'package:dating_app_stroll/resources/constants.dart';
 import 'package:flutter/material.dart';
 
-class backGroundImage extends StatelessWidget {
-  const backGroundImage({
+class BackGroundImage extends StatelessWidget {
+  const BackGroundImage({
     super.key,
   });
 
